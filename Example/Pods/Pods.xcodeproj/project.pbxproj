@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		070676802138DA910077945B /* ScaleAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0706767F2138DA910077945B /* ScaleAnimator.swift */; };
-		070676822138DC2A0077945B /* PushAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070676812138DC2A0077945B /* PushAnimator.swift */; };
-		070676842138DCAB0077945B /* PanAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070676832138DCAB0077945B /* PanAnimator.swift */; };
-		070676862138DCD20077945B /* UI+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070676852138DCD20077945B /* UI+Utility.swift */; };
+		0706768B2138DFEC0077945B /* ScaleAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070676872138DFEC0077945B /* ScaleAnimator.swift */; };
+		0706768C2138DFEC0077945B /* PanAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070676882138DFEC0077945B /* PanAnimator.swift */; };
+		0706768D2138DFEC0077945B /* PushAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070676892138DFEC0077945B /* PushAnimator.swift */; };
+		0706768E2138DFEC0077945B /* UI+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0706768A2138DFEC0077945B /* UI+Utility.swift */; };
 		0707671D2138D53E00482523 /* UIViewController+Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070767172138D53E00482523 /* UIViewController+Animator.swift */; };
 		0707671E2138D53E00482523 /* AbstractTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070767182138D53E00482523 /* AbstractTransitionAnimator.swift */; };
 		0707671F2138D53E00482523 /* BasicTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070767192138D53E00482523 /* BasicTransitionAnimator.swift */; };
@@ -46,10 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0706767F2138DA910077945B /* ScaleAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleAnimator.swift; sourceTree = "<group>"; };
-		070676812138DC2A0077945B /* PushAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushAnimator.swift; sourceTree = "<group>"; };
-		070676832138DCAB0077945B /* PanAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanAnimator.swift; sourceTree = "<group>"; };
-		070676852138DCD20077945B /* UI+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI+Utility.swift"; sourceTree = "<group>"; };
+		070676872138DFEC0077945B /* ScaleAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScaleAnimator.swift; path = EZTransitionAnimator/Classes/ScaleAnimator.swift; sourceTree = "<group>"; };
+		070676882138DFEC0077945B /* PanAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PanAnimator.swift; path = EZTransitionAnimator/Classes/PanAnimator.swift; sourceTree = "<group>"; };
+		070676892138DFEC0077945B /* PushAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PushAnimator.swift; path = EZTransitionAnimator/Classes/PushAnimator.swift; sourceTree = "<group>"; };
+		0706768A2138DFEC0077945B /* UI+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UI+Utility.swift"; path = "EZTransitionAnimator/Classes/UI+Utility.swift"; sourceTree = "<group>"; };
 		070767172138D53E00482523 /* UIViewController+Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Animator.swift"; path = "EZTransitionAnimator/Classes/UIViewController+Animator.swift"; sourceTree = "<group>"; };
 		070767182138D53E00482523 /* AbstractTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AbstractTransitionAnimator.swift; path = EZTransitionAnimator/Classes/AbstractTransitionAnimator.swift; sourceTree = "<group>"; };
 		070767192138D53E00482523 /* BasicTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BasicTransitionAnimator.swift; path = EZTransitionAnimator/Classes/BasicTransitionAnimator.swift; sourceTree = "<group>"; };
@@ -199,12 +199,12 @@
 				070767182138D53E00482523 /* AbstractTransitionAnimator.swift */,
 				070767192138D53E00482523 /* BasicTransitionAnimator.swift */,
 				0707671B2138D53E00482523 /* KeyFramesTransitionAnimator.swift */,
+				070676882138DFEC0077945B /* PanAnimator.swift */,
+				070676892138DFEC0077945B /* PushAnimator.swift */,
+				070676872138DFEC0077945B /* ScaleAnimator.swift */,
+				0706768A2138DFEC0077945B /* UI+Utility.swift */,
 				0707671C2138D53E00482523 /* TransitionAnimator.swift */,
 				0707671A2138D53E00482523 /* DissolveAnimator.swift */,
-				0706767F2138DA910077945B /* ScaleAnimator.swift */,
-				070676812138DC2A0077945B /* PushAnimator.swift */,
-				070676832138DCAB0077945B /* PanAnimator.swift */,
-				070676852138DCD20077945B /* UI+Utility.swift */,
 				29DDC4DAE75AEBDB49211D7685513E20 /* Pod */,
 				F6E203A294D5DBB08E65E59D648489E2 /* Support Files */,
 			);
@@ -376,15 +376,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				070767202138D53E00482523 /* DissolveAnimator.swift in Sources */,
-				070676802138DA910077945B /* ScaleAnimator.swift in Sources */,
-				070676862138DCD20077945B /* UI+Utility.swift in Sources */,
+				0706768B2138DFEC0077945B /* ScaleAnimator.swift in Sources */,
+				0706768E2138DFEC0077945B /* UI+Utility.swift in Sources */,
 				070767222138D53E00482523 /* TransitionAnimator.swift in Sources */,
 				0707671F2138D53E00482523 /* BasicTransitionAnimator.swift in Sources */,
-				070676842138DCAB0077945B /* PanAnimator.swift in Sources */,
+				0706768D2138DFEC0077945B /* PushAnimator.swift in Sources */,
 				0707671E2138D53E00482523 /* AbstractTransitionAnimator.swift in Sources */,
 				4C7697EB9DC33C772FD2E890E31B7A4F /* EZTransitionAnimator-dummy.m in Sources */,
+				0706768C2138DFEC0077945B /* PanAnimator.swift in Sources */,
 				0707671D2138D53E00482523 /* UIViewController+Animator.swift in Sources */,
-				070676822138DC2A0077945B /* PushAnimator.swift in Sources */,
 				070767212138D53E00482523 /* KeyFramesTransitionAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
