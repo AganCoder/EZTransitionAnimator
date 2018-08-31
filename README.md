@@ -9,6 +9,10 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Why has Prefix EZ?
+
+The ideal is from ezbuy iOS Project, some code is From the Project. thks for this, I name Project with prefix EZ
+
 ## Requirements
 
 ## Installation
@@ -22,7 +26,10 @@ pod 'EZTransitionAnimator'
 
 ## Author
 
-gaoxiang, gaoxiang@ezbuy.com
+rsenjoyer 
+
+QQ: 97329498
+WeChat: gaox_219
 
 ## License
 
