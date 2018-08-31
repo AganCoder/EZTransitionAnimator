@@ -1,0 +1,16 @@
+PODS:
+  - EZTransitionAnimator (0.1.0)
+
+DEPENDENCIES:
+  - EZTransitionAnimator (from `../`)
+
+EXTERNAL SOURCES:
+  EZTransitionAnimator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EZTransitionAnimator: 8892761c7ca6bd3a3c6ea40aee3bf70be8dcd25d
+
+PODFILE CHECKSUM: 5a8d43163996a789f9572d925770cd821d6641e7
+
+COCOAPODS: 1.5.3

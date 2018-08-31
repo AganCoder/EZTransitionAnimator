@@ -1,0 +1,22 @@
+{
+  "name": "EZTransitionAnimator",
+  "version": "0.1.0",
+  "summary": "A short description of EZTransitionAnimator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gaoxiang/EZTransitionAnimator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gaoxiang": "gaoxiang@ezbuy.com"
+  },
+  "source": {
+    "git": "https://github.com/gaoxiang/EZTransitionAnimator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EZTransitionAnimator/Classes/**/*"
+}

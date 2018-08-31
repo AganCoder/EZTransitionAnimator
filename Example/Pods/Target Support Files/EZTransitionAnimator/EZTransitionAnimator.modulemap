@@ -1,0 +1,6 @@
+framework module EZTransitionAnimator {
+  umbrella header "EZTransitionAnimator-umbrella.h"
+
+  export *
+  module * { export * }
+}

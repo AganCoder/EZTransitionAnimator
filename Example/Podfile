@@ -1,6 +1,7 @@
 use_frameworks!
 
 target 'EZTransitionAnimator_Example' do
+    
   pod 'EZTransitionAnimator', :path => '../'
 
   target 'EZTransitionAnimator_Tests' do
