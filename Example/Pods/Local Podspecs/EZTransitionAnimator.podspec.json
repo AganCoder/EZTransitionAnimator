@@ -1,18 +1,18 @@
 {
   "name": "EZTransitionAnimator",
   "version": "0.1.0",
-  "summary": "A short description of EZTransitionAnimator.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/gaoxiang/EZTransitionAnimator",
+  "summary": "UIViewController in Swift.",
+  "description": "UIViewController Transition for swift",
+  "homepage": "https://github.com/Rsenjoyer/EZTransitionAnimator",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "gaoxiang": "gaoxiang@ezbuy.com"
+    "rsenjoyer": "rsenjoyer@gmail.com"
   },
   "source": {
-    "git": "https://github.com/gaoxiang/EZTransitionAnimator.git",
+    "git": "git@github.com:Rsenjoyer/EZTransitionAnimator.git",
     "tag": "0.1.0"
   },
   "platforms": {

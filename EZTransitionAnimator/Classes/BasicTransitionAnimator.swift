@@ -19,9 +19,9 @@ public class BasicTransitionAnimator: AbstractTransitionAnimator {
         return reval
     }
     
-    fileprivate var animationOptions: UIViewAnimationOptions = [.curveEaseInOut]
+    fileprivate var animationOptions: UIView.AnimationOptions = [.curveEaseInOut]
     
-    public func setAnimationOptions(_ options: UIViewAnimationOptions) -> Self {
+    public func setAnimationOptions(_ options: UIView.AnimationOptions) -> Self {
         self.animationOptions = options
         return self
     }

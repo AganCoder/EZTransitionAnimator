@@ -19,7 +19,10 @@ class ViewController: UIViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
         let presentedViewController  = PresentedViewController.make()
+                
         presentedViewController.animator = ScaleAnimator()
+        
+        
         present(presentedViewController, animated: true, completion: nil)
     }
 }

@@ -19,9 +19,9 @@ public class KeyFramesTransitionAnimator: BasicTransitionAnimator {
         return reval
     }
     
-    fileprivate var keyFramesAnimationOptions: UIViewKeyframeAnimationOptions = [.calculationModeCubic]
+    fileprivate var keyFramesAnimationOptions: UIView.KeyframeAnimationOptions = [.calculationModeCubic]
     
-    public func setKeyFramesAnimationOptions(_ options: UIViewKeyframeAnimationOptions) -> Self {
+    public func setKeyFramesAnimationOptions(_ options: UIView.KeyframeAnimationOptions) -> Self {
         self.keyFramesAnimationOptions = options
         return self
     }

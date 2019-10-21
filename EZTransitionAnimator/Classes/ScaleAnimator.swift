@@ -32,7 +32,7 @@ open class ScaleAnimator: TransitionAnimator {
             to.view.alpha = 0.0
             to.view.transform = CGAffineTransform(scaleX: sx, y: sy)
             
-            container.bringSubview(toFront: to.view)
+            container.bringSubviewToFront(to.view)
             
             }.transit { container, from, to in
                 

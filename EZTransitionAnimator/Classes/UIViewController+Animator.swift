@@ -12,7 +12,7 @@ public extension UIViewController {
     
     static fileprivate var animatorAssociatedKey: Void?
     
-    public var animator: TransitionAnimator? {
+    var animator: TransitionAnimator? {
         get {
             return objc_getAssociatedObject(self, &UIViewController.animatorAssociatedKey) as? TransitionAnimator
         }
